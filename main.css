@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: grid;
+    background:#c9cfd6;
+}
+
+@media only screen and (max-width: 2400px){
+    .menu {
+    grid-area: span 2 / span 2;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    }
+    
+    div.menu{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    div main{
+        display: block;
+    }
+    div q{
+        display: block;
+    }
+    .main-last{
+        margin-bottom: 3%;
+    }
+    /* .intro-items{
+        top: 50%;
+    } */
+    .intro{
+        grid-area: 3 / 1 / span 1 / span 2;
+        width: 100%;
+        height: 100%;
+        top: 25vh;
+        position: relative;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .project-card{
+        grid-area: span 1/span 1;
+        position: relative;
+        top: 25vh;
+        width: 100%;
+        height: 100%;
+    }
+    .body-heading{
+    width: 100%;
+    top: 50%;
+    font-size: 1.8rem;
+    text-align: center;
+    position: absolute;
+    }
+    .body-pos{
+        grid-area: 4 / 1 / span 1/span 2;
+        top: 20vh;
+        text-align: center;
+        position: relative;
+        width: 100%;
+    }
+
+    #img-setting{
+        margin-left: -50%;
+        width: 190%;
+        opacity: 60%;
+        box-shadow: -3px -3px 7px #f8f2f2, 3px 3px 5px  rgba(94, 104, 121, .288);
+    }
+    
+    .intro-image{
+        overflow: hidden;
+        top: 25%;
+        height: 17vw;
+        width: 17.5%;
+        left: 41.5%;
+        text-align: center;
+        position: absolute;
+        border-radius: 50%;
+        background:#c9cfd6;
+        box-shadow: -3px -3px 7px #f8f2f2, 3px 3px 5px  rgba(94, 104, 121, .288);
+    }
+
+    #project-items{
+        position: relative;
+        text-align: center;
+        top: 50%;
+    }
+    
+    main:first-child:nth-child(1){
+        display: block;
+        font-weight: bolder;
+    }
+
+.my-name{
+    margin: 35px;
+}
+    
+    }
+
+@media only screen and (max-width: 1200px){
+    .menu {
+        grid-area: span 2 / span 2;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin-bottom: 3%;
+        }
+    div.menu{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    div main{
+        display: block;
+    }
+    div q{
+        display: block;
+    }
+    .main-last{
+        margin-bottom: 3%;
+    }
+    /* .intro-items{
+        top: 50%;
+    } */
+    .intro{
+        grid-area: 3 / 1 / span 1 / span 2;
+        width: 100%;
+        height: 100%;
+        top: 21vw;
+        position: relative;
+        text-align: center;
+    }
+    .project-card{
+        grid-area: span 1/span 1;
+        position: relative;
+        top: 20vh;
+        width: 100%;
+        height: 100%;
+    }
+    .body-heading{
+    width: 100%;
+    top: 50%;
+    font-size: 1.8rem;
+    text-align: center;
+    position: absolute;
+    }
+    #project-items{
+        position: relative;
+        text-align: center;
+        top: 50%;
+    }
+    #img-setting{
+        margin-left: -50%;
+        width: 190%;
+        opacity: 60%;
+        box-shadow: -3px -3px 7px #f8f2f2, 3px 3px 5px  rgba(94, 104, 121, .288);
+    }
+    
+    .intro-image{
+        overflow: hidden;
+        top: 25%;
+        height: 27vw;
+        width: 27.5%;
+        left: 37.5%;
+        text-align: center;
+        position: absolute;
+        border-radius: 50%;
+        background:#c9cfd6;
+        box-shadow: -3px -3px 7px #f8f2f2, 3px 3px 5px  rgba(94, 104, 121, .288);
+    }
+    .body-pos{
+        grid-area: 4 / 1 / span 1/span 2;
+        top: 20vw;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    
+.my-name{
+    margin: 35px;
+}
+    main:first-child:nth-child(1){
+        display: block;
+        font-weight: bolder;
+    }
+    
+    } 
+@media only screen and (max-width: 600px){
+.menu {
+grid-area: span 2 / span 2;
+width: 100%;
+height: 100%;
+position: relative;
+margin-bottom: 3%;
+}
+
+.my-name{
+    margin: 35px;
+}
+
+#img-setting{
+    margin-left: -50%;
+    width: 190%;
+    opacity: 60%;
+    box-shadow: -3px -3px 7px #f8f2f2, 3px 3px 5px  rgba(94, 104, 121, .288);
+}
+
+.intro-image{
+    overflow: hidden;
+    top: 25%;
+    height: 35vw;
+    width: 35.5%;
+    left: 31.5%;
+    text-align: center;
+    position: absolute;
+    border-radius: 50%;
+    background:#c9cfd6;
+    box-shadow: -3px -3px 7px #f8f2f2, 3px 3px 5px  rgba(94, 104, 121, .288);
+}
+
+div.menu{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+div main{
+    display: block;
+}
+div q{
+    display: block;
+}
+/* .main-last{
+    margin-bottom: 3%;
+} */
+/* .intro-items{
+    top: 50%;
+} */
+.intro{
+    grid-area: 3 / 1 / span 1 / span 2;
+    width: 100%;
+    height: 100%;
+    top: 13vw;
+    position: relative;
+    text-align: center;
+}
+.body-heading{
+width: 100%;
+top: 50%;
+font-size: 1.8rem;
+text-align: center;
+position: absolute;
+}
+.body-pos{
+    grid-area: 4 / 1 / span 1/span 2;
+    top: 10vh;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+main:first-child:nth-child(1){
+    display: block;
+    font-weight: bolder;
+}
+.project-card{
+    grid-area: span 1/span 2;
+    position: relative;
+    top: 10vh;
+    width: 100%;
+    height: 100%;
+}
+
+#project-items{
+    position: relative;
+    text-align: center;
+    top: 50%;
+}
+
+
+}
+@media only screen and (max-width: 460px){
+    .menu {
+    grid-area: span 2 / span 2;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 3%;
+    }
+    
+    .my-name{
+        margin: 35px;
+    }
+    
+    #img-setting{
+        margin-left: -50%;
+        width: 190%;
+        opacity: 60%;
+        box-shadow: -3px -3px 7px #f8f2f2, 3px 3px 5px  rgba(94, 104, 121, .288);
+    }
+    
+    .intro-image{
+        overflow: hidden;
+        top: 25%;
+        height: 37vw;
+        width: 37.5%;
+        left: 31.5%;
+        text-align: center;
+        position: absolute;
+        border-radius: 50%;
+        background:#c9cfd6;
+        box-shadow: -3px -3px 7px #f8f2f2, 3px 3px 5px  rgba(94, 104, 121, .288);
+    }
+    
+    div.menu{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    div main{
+        display: block;
+    }
+    div q{
+        display: block;
+    }
+    /* .main-last{
+        margin-bottom: 3%;
+    } */
+    /* .intro-items{
+        top: 50%;
+    } */
+    .intro{
+        grid-area: 3 / 1 / span 1 / span 2;
+        width: 100%;
+        height: 100%;
+        top: 10vw;
+        position: relative;
+        text-align: center;
+    }
+    .body-heading{
+    width: 100%;
+    top: 50%;
+    font-size: 1.8rem;
+    text-align: center;
+    position: absolute;
+    }
+    .body-pos{
+        grid-area: 4 / 1 / span 1/span 2;
+        top: 10vh;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    main:first-child:nth-child(1){
+        display: block;
+        font-weight: bolder;
+    }
+    .project-card{
+        grid-area: span 1/span 2;
+        position: relative;
+        top: 10vh;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #project-items{
+        position: relative;
+        text-align: center;
+        top: 50%;
+    }
+    
+    
+    }
